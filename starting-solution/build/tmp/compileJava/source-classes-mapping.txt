@@ -1,0 +1,12 @@
+com/signifyd/challenge/CustomerProfile.java
+ com.signifyd.challenge.CustomerProfile
+com/signifyd/challenge/EventType.java
+ com.signifyd.challenge.EventType
+com/signifyd/challenge/Status.java
+ com.signifyd.challenge.Status
+com/signifyd/challenge/CustomerStatus.java
+ com.signifyd.challenge.CustomerStatus
+com/signifyd/challenge/Solution.java
+ com.signifyd.challenge.Solution
+com/signifyd/challenge/Profiler.java
+ com.signifyd.challenge.Profiler

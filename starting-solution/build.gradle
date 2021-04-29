@@ -1,0 +1,26 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.commons', name: 'commons-csv', version: '1.8'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.6.2'
+}
+
+application {
+    mainClass = 'com.signifyd.challenge.Solution'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+test {
+    useJUnitPlatform()
+}
+
